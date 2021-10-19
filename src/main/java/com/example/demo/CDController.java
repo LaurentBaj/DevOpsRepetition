@@ -8,7 +8,7 @@ class CDController {
 
     @GetMapping(path = "/")
     public String hello() {
-        return "Hva tror dere intensjonen til han første som melket en ku var?";
+        return "Hello World";
     }
 
 }
